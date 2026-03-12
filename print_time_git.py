@@ -22,12 +22,12 @@ def main():
 
     # gets the total time
     run_time = end_time - start_time
-    # prints the output
-    print("\n\nTime for loop: {} seconds\n".format(run_time))
-    with open("data_file", "a") as f:
+
+    with open("data_file", "w") as f:
         f.write("\n\nTime for loop: {} seconds\n".format(run_time))
 
 if __name__ == "__main__":
     main()
+
 
 
