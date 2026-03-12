@@ -29,5 +29,11 @@ def main():
 if __name__ == "__main__":
     main()
 
+file = open("data_file", "r")
+
+contents =  file.read()
+print(contents)
+
+file.close()
 
 
