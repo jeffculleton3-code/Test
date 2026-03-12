@@ -51,7 +51,7 @@ int main(int argc, char **argv)
         fprintf(fpointer, "\n\nRuntime for core loop: %lf seconds.\n\n", runtime);
 
         fclose(fpointer);
-        #printf("\n\nRuntime for core loop: %lf seconds.\n\n", runtime);
+        //printf("\n\nRuntime for core loop: %lf seconds.\n\n", runtime);
 
         return 0;
 }
